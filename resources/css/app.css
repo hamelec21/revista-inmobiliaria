@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+
+/*
+botones
+*/
+.btn {
+    @apply  font-bold text-white py-2 px-4 rounded-xl shadow-lg cursor-pointer;
+}
+.btn-eliminar {
+    @apply  bg-red-600 hover:bg-red-500;
+}
+.btn-editar {
+    @apply  bg-yellow-500 hover:bg-yellow-400 ;
+}
+.btn-agregar{
+    @apply  text-white bg-gradient-to-r from-sky-600 to-cyan-400 ;
+}
+.btn-ver {
+    @apply  bg-green-600 hover:bg-green-500 ;
+}
+/*
+Estados
+*/
+.status{
+    @apply  py-1 px-3 rounded-full text-xs;
+}
+
+.status-verde
+{
+    @apply bg-green-200 text-green-700;
+}
+
+.status-rojo{
+    @apply bg-red-200 text-red-700;
+}
+
+.status-azul {
+    @apply bg-blue-200 text-blue-700;
+}
+
+
+
+
+@tailwind utilities;
