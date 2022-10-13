@@ -87,14 +87,14 @@
                     class="block w-full h-full"
                     alt="..."
                 />
-                </a>
+
                 <div class="carousel-caption  md:block absolute text-center"><!--se elimina hidden-->
                     <div class="rounded-md px-4 py-4  bg-gray-900  bg-opacity-70">
                         <h5 class=" md:text-md lg:text-3xl text-white font-bold">Análisis de eliminación de CEEC en el
                             precio de la vivienda</h5>
                     </div>
-
                 </div>
+                </a>
             </div>
             <div class="carousel-item relative float-left w-full">
                 <a href="https://www.flipsnack.com/cestin/informe-2-requisito-contrato-de-compraventa.html"
@@ -104,14 +104,13 @@
                         class="block w-full object-center"
                         alt="..."
                     />
-                </a>
+
                 <div class="carousel-caption  md:block absolute text-center"><!--se elimina hidden-->
                     <div class="rounded-md px-4 py-4  bg-gray-900  bg-opacity-70">
                         <h5 class="md:text-md lg:text-3xl text-white font-bold">Requisito Contrato de Compraventa</h5>
                     </div>
-
-
                 </div>
+                </a>
             </div>
             <div class="carousel-item relative float-left w-full">
                 <a href="https://www.flipsnack.com/cestin/la-tributaci-n-en-la-venta-de-bienes-ra-ces.html"
@@ -121,14 +120,14 @@
                         class="block w-full"
                         alt="..."
                     />
-                </a>
+
                 <div class="carousel-caption  md:block absolute text-center"><!--se elimina hidden-->
                     <div class="rounded-md px-4 py-4  bg-gray-900  bg-opacity-70">
                         <h5 class="md:text-md lg:text-3xl text-white font-bold">La Tributación en la venta de Bienes
                             Raíces</h5>
                     </div>
-
                 </div>
+                </a>
             </div>
         </div>
         <button
@@ -180,18 +179,24 @@
 
         <div class="container  flex flex-col justify-center items-center">
 
-            <div class="text-white text-center  flex justify-center py-4"> <img src="img/logo_cei.png" width="150px" class="w-32 object-contain"/></div>
+            <div class="text-white text-center  flex justify-center py-4"><img src="img/logo_cei.png" width="150px"
+                                                                               class="w-32 object-contain"/></div>
             <div class=" text-white text-lg font-normal text-center mt-8">Roger de Flor 2736, Piso 6, Las Condes</div>
             <div class=" text-white text-lg font-normal text-center">contacto@ceichile.cl</div>
         </div>
 
         <div>
-            <form  action="{{route('contactanos.store')}}" method="post" class="mx-auto w-full pt-10 sm:w-3/4">
+            <form action="{{route('contactanos.store')}}" method="post" class="mx-auto w-full pt-10 sm:w-3/4">
                 @csrf
                 @if(session('info'))
                     <div class=" flex flex-row">
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6 text-yellow-400" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 class="stroke-current flex-shrink-0 h-6 w-6 text-yellow-400" fill="none"
+                                 viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
                         </div>
 
                         <div>
